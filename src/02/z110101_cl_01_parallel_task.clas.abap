@@ -17,6 +17,8 @@ CLASS z110101_cl_01_parallel_task IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 
+"this is an example of parallel tasks
+
     DATA:
       l_in_tab TYPE cl_abap_parallel=>t_in_inst_tab,
       l_inst   TYPE REF TO lcl_parallel_task.
