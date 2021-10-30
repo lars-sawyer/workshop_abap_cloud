@@ -1,4 +1,0 @@
-@EndUserText.label: 'Salesorder FE'
-define service ZUI_C_Salesorder {
-  expose ZLSWS_CDS_FE_UI;
-}
